@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1133301866",
+    "hash" : "0",
     "id" : "990D6C7",
-    "lastKnownWriteTime" : 1564089539,
-    "last_content_update" : 1564089539,
+    "lastKnownWriteTime" : 1564090149,
+    "last_content_update" : 1564090149953,
     "path" : "~/Analytics_R/numberFormattR/R/hello.R",
     "project_path" : "R/hello.R",
     "properties" : {
+        "cursorPosition" : "19,4",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
