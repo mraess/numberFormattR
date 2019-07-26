@@ -17,3 +17,4 @@ Example for `number_formatter()`
 map(c(1243,8798383), number_formatter, currency = TRUE, digits = 2) %>% unlist()
 
 ```
+Output: `[1] "$1.2k" "$8.8M"`
