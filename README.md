@@ -10,7 +10,7 @@ if (!requireNamespace("devtools", quietly = TRUE))
 devtools::install_github('mraess/numberFormattR')
 
 ```
-Example for `number_formatter` 
+Example for `number_formatter()` 
 
 ``` r
 
