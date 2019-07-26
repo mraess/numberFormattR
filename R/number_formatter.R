@@ -3,11 +3,15 @@
 #'
 #' This function allows you to add a negative "(-)" prefix as well as number suffixes, such as k for thousands, or M for millions.
 #'
+#' Based on the f2si function from the sitools package and this stackoverflow post with minor changes, such as the currency.
+#' https://stackoverflow.com/questions/11340444/is-there-an-r-function-to-format-number-using-unit-prefix/29932218
+#'
 #' @param number A number you want to format - if it is a vector you'll have to map the function to the vector, e.g.
 #' map(vector, number_formatter, rounding = TRUE, digits = 2, currency = TRUE).
 #' @param rounding determines if number gets rounded. Defaults to FALSE.
 #' @param digits determines the number of decimals for rounding.
 #' @param currency determines if the $ sign is prefixed. Defaults to FALSE.
+#' @export
 
 
 number_formatter <- function(number, rounding=FALSE, digits=ifelse(rounding, NA, 6), currency=FALSE)

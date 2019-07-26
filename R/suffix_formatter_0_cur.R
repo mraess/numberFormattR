@@ -4,8 +4,12 @@
 #' Same as number_formatter but for currency $.
 #' Example scale_y_continuous(labels = suffix_formatter_0_cur)
 #'
+#' Rewritten for currency from Based on this stackoverflow post https://stackoverflow.com/questions/28159936/formatting-large-currency-or-dollar-values-to-millions-billions
+#'
+#'
 #' @param x A vector of numbers representing an axis in your ggplot.
 #' @param digits Defaults to NULL. Here it set to zero for use in plots.
+#' @export
 
 
 

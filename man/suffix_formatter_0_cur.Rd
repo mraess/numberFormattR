@@ -15,3 +15,6 @@ suffix_formatter_0_cur(x, digits = NULL)
 Same as number_formatter but for currency $.
 Example scale_y_continuous(labels = suffix_formatter_0_cur)
 }
+\details{
+Rewritten for currency from Based on this stackoverflow post https://stackoverflow.com/questions/28159936/formatting-large-currency-or-dollar-values-to-millions-billions
+}

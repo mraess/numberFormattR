@@ -20,3 +20,7 @@ map(vector, number_formatter, rounding = TRUE, digits = 2, currency = TRUE).}
 \description{
 This function allows you to add a negative "(-)" prefix as well as number suffixes, such as k for thousands, or M for millions.
 }
+\details{
+Based on the f2si function from the sitools package and this stackoverflow post with minor changes, such as the currency.
+https://stackoverflow.com/questions/11340444/is-there-an-r-function-to-format-number-using-unit-prefix/29932218
+}

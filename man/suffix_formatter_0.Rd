@@ -15,3 +15,6 @@ suffix_formatter_0(x, digits = NULL)
 This function allows you to add number suffixes, such as k for thousands,
 or M for millions to ggplots. It does NOT return anything when called by itself. Example scale_y_continuous(labels = suffix_formatter_0)
 }
+\details{
+Based on this stackoverflow post https://stackoverflow.com/questions/28159936/formatting-large-currency-or-dollar-values-to-millions-billions
+}
