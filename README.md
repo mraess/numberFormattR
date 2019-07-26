@@ -10,3 +10,10 @@ if (!requireNamespace("devtools", quietly = TRUE))
 devtools::install_github('mraess/numberFormattR')
 
 ```
+Example for `number_formatter` 
+
+``` r
+
+map(c(1243,8798383), number_formatter, currency = TRUE, digits = 2) %>% unlist()
+
+```
