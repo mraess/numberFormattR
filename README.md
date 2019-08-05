@@ -21,4 +21,4 @@ Output: `[1] "$1.2k" "$8.8M"`
 
 
 
-<img src="https://github.com/mraess/numberFormatteR/blob/master/example.png" alt="Step 1" width="50%" />
+<img src="https://github.com/mraess/numberFormattR/blob/master/example.png" alt="Step 1" width="50%" />
